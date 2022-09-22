@@ -18,22 +18,18 @@ button {
   /* animation: shake 4s infinite; */
 }
 
-.anim-span1 {
+.anim-span1,.anim-span2 {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   transition: .2s;
 }
+
 .anim-span2 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
   width: 240px;
   transform: translate(100%, -50%);
-  transition: .2s;
 }
-
 
 
 button:hover .anim-span1{
